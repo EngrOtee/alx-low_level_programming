@@ -3,6 +3,7 @@
  * Auth: Oto-Obong Ezekiel Umoh
  */
 
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -10,10 +11,10 @@
  */
 void print_alphabet_x10(void)
 {
-		int count = 0;
-			char letter;
+		int main ()
+			char ch = 'a';
 
-				while (count++ <= 9)
+				while (ch <= 'z')
 						{
 									for (letter = 'a'; letter <= 'z'; letter++)
 													_putchar(letter);
