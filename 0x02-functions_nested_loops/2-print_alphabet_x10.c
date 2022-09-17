@@ -3,21 +3,20 @@
  * Auth: Oto-Obong Ezekiel Umoh
  */
 
-#include <stdio.h>
 #include "main.h"
 
 /**
- * print_alphabet_x10 - Prints 10 times the alphabet, in lowercase.
+ * print_alphabet_x10 - Prints 10 times the alphabet
+ *
+ * Return Always success
  */
 void print_alphabet_x10(void)
 {
-		int main ()
-			char ch = 'a';
+		int n, co;
+		co = 0;
 
-				while (ch <= 'z')
-						{
-									for (letter = 'a'; letter <= 'z'; letter++)
-													_putchar(letter);
-											_putchar('\n');
-												}
-}
+		while (co < 10)
+		{
+		
+		for (n = 'a'; n < 'z'; n++)
+											}
