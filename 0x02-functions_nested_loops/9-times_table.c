@@ -18,7 +18,7 @@ void times_tables(void)
 			}
 
 			else 
-			
+		return (0)	
 		}
 	}
 }
