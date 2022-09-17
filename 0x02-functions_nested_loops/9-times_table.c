@@ -18,9 +18,7 @@ void times_tables(void)
 			}
 
 			else 
-			{
-				-putchar(' ');
-			}
+			
 		}
 	}
 }
