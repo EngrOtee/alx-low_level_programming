@@ -23,7 +23,6 @@ _putchar(multiplied_value + '0');
 }
 else if (multiplied_value >= 10)
 {
-	
 _putchar(' ');
 _putchar(multiplied_value / 10 + '0');
 _putchar(multiplied_value % 10 + '0');
