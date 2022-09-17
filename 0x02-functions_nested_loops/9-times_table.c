@@ -9,8 +9,6 @@ void times_tables(void)
 	int rw, col, d;
 	for (rw = 0; rw <=9; rw++)
 	{
-		-putchar('0');
-
 		for (col = 1; col <= 9; col++)
 		{
 			d = (rw * col);
