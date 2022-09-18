@@ -1,21 +1,22 @@
-/*
- * File: 2-print_alphabet_x10.c
- * Auth: Oto-Obong Ezekiel Umoh
- */
-
 #include "main.h"
-
 /**
- * print_alphabet_x10 - Prints ten times the alphabet
+ * print_alphabet_x10 - func
  *
- * Return Always success
+ * Return - Always successful
  */
+
 void print_alphabet_x10(void)
 {
-		int n, co;
-		co = 0;
-		while (co < 10)
+	int b = 0;
+	while (b < 10)
+	{
+		char a = 'a';
+		while (a <= 'z')
 		{
-		for (n = 'a'; n <= 'z'; n++);
+			_putchar(a);
+			a++;
 		}
+		_putchar('\n');
+		b++;
+	}
 }
