@@ -3,19 +3,15 @@
 
 /**
  *
- *  * mul - input
+ * mul - input
  *
- *   * Description: multiplies 2 numbers
+ * Description: multiplies 2 numbers
+ * @a: first number
  *
- *    * @a: first number
+ * @b: second number
  *
- *     * @b: second number
- *
- *      * Return: the answer
- *
- *       */
-
-
+ * Return: the answer
+ */
 
 int mul(int a, int b)
 {
